@@ -155,11 +155,7 @@ h2{
 }
 
 
-@media screen and (max-width: 800px){
-    #image-box, #image-galley{
-        background-color:violet;
-    }
-    
+@media screen and (max-width: 800px) and (min-width: 300px){
     #image-box figure{
         width: 100%;
     }
@@ -217,11 +213,48 @@ h2{
         margin: 75px auto;
     }
     
+    #text-box p{
+        width: 80%;
+        padding: 10px;
+        font-size: small;
+    }
+
     #image-gallery figure{
         width: 99%;
         border: 1px solid black;
         margin-bottom: 30px;
     }
+    #square{
+        width: 150px;
+        height: 150px;
+        margin: 100px auto;
+    }
+                        
+    #shadow{
+        margin: 10px auto;
+        flex-direction: column;
+    }
+   
+    #shadow #letter-shadow{
+        width: 100%;
+        padding: 10px;
+    }
+
+    #shadow #picture-shadow{
+        width: 100%;
+        padding-top: 40px;
+    }
+    #shadow #picture-shadow figure{
+        width: 100%;
+    }
+
+    #shadow #picture-shadow figcaption{
+        padding: 20px 0;
+    }
+    #shadow #picture-shadow img{
+        width: 100%;
+    }
+
 }
 
 .clear{
